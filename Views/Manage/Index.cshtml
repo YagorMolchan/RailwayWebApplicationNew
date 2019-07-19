@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Личный кабинет";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="container body-content">
+    @*<h2>@ViewData["Title"]</h2>*@
+    <div>
+        @*<h4>Редактирование данных</h4>
+        <hr />*@
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-stacked">
+                    <li>
+                        <a id="change-password" href="Manage/ChangePassword">Пароль</a>
+                    </li>
+                    <li>
+                        <a id="personal-data" href="Manage/Edit">Личные данные</a>
+                    </li>
+                    <li>
+                        <a id="orders-story">История заказов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
